@@ -5,10 +5,6 @@
  * All returns are currently set up for json return format.
  */
 namespace App\Services;
-use App\Platform;
-use App\Task;
-use App\Services\SocialMediaService;
-use App\Repositories\TaskRepository;
 use Illuminate\Support\Facades\Log;
 
 class EncodingService {
